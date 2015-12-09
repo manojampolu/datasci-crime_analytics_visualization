@@ -13,7 +13,7 @@ Out of the majority of crimes reported, Larceny/Theft is most common.
 ![Crimes Rates on a day of month](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crime_rate_on_day_of_month.png)
 ![Day of a week wise crime counts](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crime_rate_day_of_week.png)
 But the number of thefts reported on a Saturday are high.
-![Day wise break up of common crimes](https://github.com/manojampolu/datasci-crime_analytics_visualization//common_crmes_dayofweek.png)
+![Day wise break up of common crimes](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/common_crmes_dayofweek.png)
 However, the number of crimes reported between 5PM - 7PM are high.
 ![Hourly breakup of crimes reported](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crime_rate_hourly_basis.png)
 4. I think the number crimes resolved in an area plays a very important role in curbing the numner of crimes in an area. Low crimes are reported in areas where the crimes resolved are high in number.
