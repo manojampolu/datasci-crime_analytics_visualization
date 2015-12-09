@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 file_name ='/home/manoj/datasci_course_materials/assignment6/sanfrancisco_incidents_summer_2014.csv'
 file_data = pd.read_csv(file_name)
-districts = dict(sf.PdDistrict.value_counts()).keys()
+districts = dict(file_data.PdDistrict.value_counts()).keys()
 plt.bar(range(len(districts)), district.values())
 plt.xticks(range(len(districts)), districts)
 plt.title('District-wise crime rate')
