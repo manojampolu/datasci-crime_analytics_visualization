@@ -18,9 +18,3 @@ However, the number of crimes reported between 5PM - 7PM are high.
 ![Hourly breakup of crimes reported]({{site.baseurl}}//crime_rate_hourly_basis.png)
 4. I think the number crimes resolved in an area plays a very important role in curbing the numner of crimes in an area. Low crimes are reported in areas where the crimes resolved are high in number.
 ![Crimes Resolved Vs not Resolved]({{site.baseurl}}//crime_rate_vs_resoultion.png)
-
-
-
-
-
-
