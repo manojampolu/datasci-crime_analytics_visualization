@@ -5,13 +5,21 @@ I have selected San Franscisco crime data for my assignment. I have used IPython
 A sample code used to generate the bar graphs for the analysis is below.
 
 >>>import pandas as pd
+
 >>>import matplotlib.pyplot as plt 
+
 >>>file_name ='/home/manoj/datasci_course_materials/assignment6/sanfrancisco_incidents_summer_2014.csv'
+
 >>>file_data = pd.read_csv(file_name)
+
 >>>districts = dict(file_data.PdDistrict.value_counts()).keys()
+
 >>>plt.bar(range(len(districts)), district.values())
+
 >>>plt.xticks(range(len(districts)), districts)
+
 >>>plt.title('District-wise crime rate')
+
 >>>plt.show()
 
 
@@ -33,16 +41,16 @@ I was thinking that no of crimes reported during night would be higher compared 
 1. Number of crimes gradually decrease from night and then increase at 12th hour(noon time), then show a slight decrease and reach maximim between 17th hour(5 PM) to 19th hour(7 PM). 
 ![Count of Crimes Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crime_rate_hourly_basis.png)
 2. I think the above pattern is largely due to high number of larceny/theft crimes reported. Also, is the high number of larceny/thefts reported in Southern district.
-![Crime Category Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/hourly_crime_rate_crime_category.png
+![Crime Category Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_crime_category.png
 3. The same pattern is observed for crime recorded time on any day of week.Crimes recroded around 4 AM could be minimum as the city sleeps during that time.
-![Day of week Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/hourly_crime_rate_dayofweek.png
+![Day of week Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_dayofweek.png
 4. While southern district records maximum crimes between 5PM-7PM, the other districts like TENDERLOIN records low number of crimes. This could be due to the fact that Southern District has more offices and TENDERLOIN is housing zone.
-![Crimes per district Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/hourly_crime_rate_pddistrict.png
+![Crimes per district Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_pddistrict.png
 
 I felt that the number of crimes resolved will play an important role in the number of crimes recorded in any district. But I am surprised to see that most of the districts display the same ratio of crimes resolved to unresolved except TENDERLOIN, MISSION and BAYVIEW. 
 ![District wise crimes resolved Vs Unresolved](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/res_vs_unres_districtwise.png)
 This may be because of the fact that most of the thefts/burglaries are not resolved in any district.
-![Category of crimes resolved Vs Unresolved](https://raw.githubusercontent.com/manojampolu/datasci-crime_analytics_visualization/master/crimes_%25res_vs_%25unres.png)
+![Category of crimes resolved Vs Unresolved](https://raw.githubusercontent.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crimes_%25res_vs_%25unres.png)
 
 
 ### Conclusion
