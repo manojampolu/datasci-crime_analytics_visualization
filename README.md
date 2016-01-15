@@ -44,7 +44,7 @@ I was thinking that no of crimes reported during night would be higher compared 
 ![Count of Crimes Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_crime_category.png)
 3. The same pattern is observed for crime recorded time on any day of week.Crimes recroded around 4 AM could be minimum as the city sleeps during that time.
 ![Day of week Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_dayofweek.png)
-4. While southern district records maximum crimes between 5PM-7PM, the other districts like TENDERLOIN records low number of crimes. This could be due to the fact that Southern District has more offices and TENDERLOIN is housing zone.
+4. While southern district records maximum crimes between 5PM-7PM, the other districts like TENDERLOIN records low number of crimes at the same time. This could be due to the fact that Southern District has more offices and TENDERLOIN has more houses.
 ![Crimes per district Vs Time](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/hourly_crime_rate_pddistrict.png)
 
 I felt that the number of crimes resolved will play an important role in the number of crimes recorded in any district. But I am surprised to see that most of the districts display the same ratio of crimes resolved to unresolved except TENDERLOIN, MISSION and BAYVIEW. 
@@ -54,4 +54,4 @@ This may be because of the fact that most of the thefts/burglaries are not resol
 
 
 ### Conclusion
-I think the San Francisco police department and the judicial department have to come up with more innovative steps to curb theft related crimes in all districts. People should also be warned about the timings(between 12PM-1PM and 5PM-7PM) during which most of the crimes take place. If they can reduce the number of crimes during the peak hours, I feel it would show a great difference in number of crimes recorded.
+I feel that prevention is always better than cure. So, I feel the San Francisco police department and the judicial department have to come up with more innovative steps to curb theft related crimes in all districts while also looking into the root causes. Well the police department cannot alone do this without public's help and awareness. So, if people are warned about the timings(between 12PM-1PM and 5PM-7PM) during which most of the crimes take place they would be more alert. If they can reduce the number of crimes during the peak hours, I feel it would show a great difference in number of crimes recorded.
