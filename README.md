@@ -50,7 +50,7 @@ I was thinking that no of crimes reported during night would be higher compared 
 I felt that the number of crimes resolved will play an important role in the number of crimes recorded in any district. But I am surprised to see that most of the districts display the same ratio of crimes resolved to unresolved except TENDERLOIN, MISSION and BAYVIEW. 
 ![District wise crimes resolved Vs Unresolved](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/res_vs_unres_districtwise.png)
 This may be because of the fact that most of the thefts/burglaries are not resolved in any district.
-![Category of crimes resolved Vs Unresolved](https://raw.githubusercontent.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crimes_%25res_vs_%25unres.png)
+![Category of crimes resolved Vs Unresolved](https://github.com/manojampolu/datasci-crime_analytics_visualization/blob/master/crimes_%25res_vs_%25unres.png)
 
 
 ### Conclusion
